@@ -1,0 +1,12 @@
+n=3
+m='*'
+count=0
+for i in range(0,6):
+    a=n
+    b=m
+    for j in range(0,5-2*i):
+        print(a,end="")
+        a,b=b,a
+        count+=1
+    print("")
+    n-=1
