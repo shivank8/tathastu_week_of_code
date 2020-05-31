@@ -1,0 +1,8 @@
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+c=a+b
+a=c-a
+b=c-b
+print("Numbers after being swap are")
+print(a)
+print(b)
