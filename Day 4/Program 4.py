@@ -1,11 +1,13 @@
-size = int(input("Enter the no of items you want to add in Dictonary: "))
-diction = dict()
+size = int(input("Enter the size of Dictionary"))
+lst =[]
+print("Enter the value for item in dictionary")
 for i in range(size):
-    key = input("Enter the key for item " + str(i + 1) + " in dictonary: ")
-    value = int(input("Enter the value for item " + str(i + 1) + " in dictonary: "))
-    diction[key] = value
-result = dict()
-for key,value in diction.items():
-    if value not in result.values():
-        result[key] = value
-print("Dictonary after removing duplicate values: ", result)
+    lst.append(int(input()))
+for i in lst:
+    count=0
+    for j in lst:
+        if(i==j):
+            count+=1
+    if(count>1):
+        lst.remove(i)
+print(lst)
