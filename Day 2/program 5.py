@@ -1,7 +1,7 @@
 def pattern(n):
     for i in range(n,1,-1):
         j=str(i)
-        s=(j+'*')*i#using string concatenation
+        s=(j+'*')*i
         l=len(s)-1
         print(s[:l])
         if(i==2):

@@ -14,7 +14,7 @@ for i in range(0,10):
         a-=1
         b+=1
     elif(count==5):
-         j=5#Just fo make it work. If you know how to remove it ,please message me.  
+         j=5
     else:
         a+=1
         b-=1

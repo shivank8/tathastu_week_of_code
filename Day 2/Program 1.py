@@ -26,7 +26,7 @@ sum=0
 while(copy>0):
     digit=copy%10
     sum=sum+digit*digit*digit
-    copy=int(copy/10)#type casting
+    copy=int(copy/10)
 if(sum==n):
     print("Number is Armstrong")
 else:
