@@ -4,6 +4,7 @@ def sorting(lst,size):
         if(lst[i]%2==0):
             evenlist.append(lst[i])
             lst.pop(i)
+            size-=1
     lst.sort()
     evenlist.sort()
     evenlist.reverse()
