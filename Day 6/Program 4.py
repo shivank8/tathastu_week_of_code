@@ -1,4 +1,4 @@
-num=input("enter a number to find the next maximum number with same set of digit ")
+num=input("Enter a number")
 num=list(num)
 for i in range(len(num)-1,0,-1):
     if num[i]>num[i-1]:
@@ -13,4 +13,4 @@ for i in range(len(num)-1,0,-1):
     else:
         continue
 else:
-    print("not possible")
+    print("Not possible")
